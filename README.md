@@ -15,6 +15,12 @@ Finally, it creates an output file with the name specified by the user and write
 
 > Install SDK from https://cloud.google.com/sdk/docs/install
 
+```./google-cloud-sdk/install.sh```
+
+Then initialize using:
+
+```./google-cloud-sdk/bin/gcloud init```
+
 Once you have set up your GCP project, you will need to install the google-cloud-language library using pip:
 
 ```pip install google-cloud-language```
